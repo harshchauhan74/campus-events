@@ -29,6 +29,12 @@ export const metadata: Metadata = {
   title: "CampusEvents — Discover What's Happening",
   description:
     "Your one-stop platform for discovering, managing, and engaging with campus events. Find academic workshops, social events, sports activities, and more.",
+    icons: {
+  icon: [
+    { url: "/favicon.svg", sizes: "150x150", type: "image/svg+xml" },
+    { url: "/icon.svg", type: "image/svg+xml" },
+  ],
+},
 };
 
 export default function RootLayout({
